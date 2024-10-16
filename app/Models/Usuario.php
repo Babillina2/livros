@@ -7,7 +7,7 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 
 class Usuario extends Authenticatable
 {
-    protected $fillable = ['name', 'email', 'password'];
+    protected $fillable = ['nome', 'email', 'password'];
 
     public function vendas()
     {

@@ -2,6 +2,8 @@
 
 namespace App\Providers\Filament;
 
+use Faker\Core\Color as CoreColor;
+use Faker\Provider\ar_EG\Color as Ar_EGColor;
 use Filament\Http\Middleware\Authenticate;
 use Filament\Http\Middleware\DisableBladeIconComponents;
 use Filament\Http\Middleware\DispatchServingFilamentEvent;

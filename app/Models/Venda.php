@@ -8,7 +8,6 @@ class Venda extends Model
 {
     protected $fillable = [
         'id',
-        'created_at',
         'data',
         'nome_comprador',
         'tipo_pgto',
